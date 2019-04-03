@@ -19,7 +19,7 @@
             <td class="airline-logo"><img src="<%= departure.airline.logo_url %>" /></td>
             <td><%= departure.flight.number %></td>
             <td><%= departure.str_status %></td>
-            <td class="text-center"><%= l departure.date, format: '%H:%M' %></td>
+            <td class="text-center"><%= departure.date, format: '%H:%M' %></td>
             <td class="text-center"><%= departure.gate %></td>
           </tr>
           <% end %>
